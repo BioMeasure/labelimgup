@@ -35,7 +35,8 @@ When target frames are superimposed: If no target frame is selected, the topmost
 ](https://github.com/BioMeasure/labelimgup/blob/master/demo/drag_rect1.gif)
 
 目标框叠加在一起时：如果预先选中了一个特定的目标框，会自动选择被选中的目标框，吸附其最近的顶点，不管其它的目标框。如果遇到一个小框被大框覆盖的情况，只能将大框移开，然后修改小框。通过这个右键拖拽功能，可以先通过高亮提示选中小框，然后直接右键拖拽编辑。  
-When target frames are superimposed: If a specific target frame is pre-selected, the selected target frame will be automatically selected, and its nearest vertex will be absorbed, regardless of other target frames. If a small frame is covered by a large frame, you can only remove the large frame and modify the small frame. Through this right-click drag function, you can first select the small box through the highlight prompt, and then directly right-click and drag to edit.[![](https://github.com/BioMeasure/labelimgup/raw/master/demo/drag_rect2.gif)
+When target frames are superimposed: If a specific target frame is pre-selected, the selected target frame will be automatically selected, and its nearest vertex will be absorbed, regardless of other target frames. If a small frame is covered by a large frame, you can only remove the large frame and modify the small frame. Through this right-click drag function, you can first select the small box through the highlight prompt, and then directly right-click and drag to edit.
+[![](https://github.com/BioMeasure/labelimgup/raw/master/demo/drag_rect2.gif)
 ](https://github.com/BioMeasure/labelimgup/blob/master/demo/drag_rect2.gif)
 
 复制label功能 Copy label function
@@ -75,5 +76,6 @@ For the original pop-up window, you must press the button in it to close it. Whe
 ---------------------
 
 *   删除了右键菜单功能，因为可能与第二章的右键拖拽功能冲突导致BUG，同时其中的功能都已经设置了快捷键进行实现，见上文。原始的右键菜单如图：  
-    Deleted the right-click menu function, because it may conflict with the right-click drag function in Chapter 2 and cause BUG, ​​and the functions in it have been set up with shortcut keys for implementation, see above. The original right-click menu is shown in the figure:[![](https://github.com/BioMeasure/labelimgup/raw/master/demo/menu_original.png)
+    Deleted the right-click menu function, because it may conflict with the right-click drag function in Chapter 2 and cause BUG, ​​and the functions in it have been set up with shortcut keys for implementation, see above. The original right-click menu is shown in the figure:
+    [![](https://github.com/BioMeasure/labelimgup/raw/master/demo/menu_original.png)
     ](https://github.com/BioMeasure/labelimgup/blob/master/demo/menu_original.png)
